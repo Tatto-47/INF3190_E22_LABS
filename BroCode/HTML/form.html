@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+</head>
+<body>
+
+    <form action="index.php" method="post">
+        <label for="Username">Username</label>
+        <input type="text" id="Username" placeholder="Ex Paul Tatto">
+        <br>
+        <label for="Password">Password</label>
+        <input type="password" id="password">
+        <br>
+        <label for="Email">Email</label>
+        <input type="email" id="Email" placeholder="abc@gmail.com">
+        <br>
+        <label for="Phone">Phone</label>
+        <input type="Phone" id="Phone" placeholder="(514) 222-2222">
+        <br>
+        <label for="Birthday">Birthday</label>
+        <input type="date" id="Birthday">
+        <br>
+        <label for="Mr.">Mr.</label>
+        <input type="radio" name="title" id="Mr.">
+        <label for="Mrs.">Mrs.</label>
+        <input type="radio" name="title" id="Mrs.">
+        <label for="Other">Other</label>
+        <input type="radio" name="title" id="Other"> 
+        <br>       
+        <label for="Payment">Payment</label>
+        <select name="Payment" id="Payment">
+            <option value="Visa">visa</option>
+            <option value="Master Card">Master Card</option>
+            <option value="Gift Card">Gift Card</option>
+        </select>
+        <br>
+        <label for="Subscribe">Subscribe</label>
+        <input type="checkbox" name="Subscribe" id="Subscribe">
+        <br>
+        <label for="Comment">Comment</label>
+        <textarea name="Comment" id="Comment" cols="25" rows="3"></textarea>
+        <br>
+        <label for="File">File</label>
+        <input type="file" name="File" id="File">
+        <br>
+        <input type="reset" value="Reset">
+        <br>
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+a:link{
+    color: rgb(27, 22, 127);
+}
+a:hover{
+    color:rgb(67, 197, 197) ;
+    font-size: 1.1em;
+}
+a:active{
+    color:blue;
+    font-size: 1.1em;
+}
+a:visited{
+    color: grey;
+}
+li:hover{
+    background-color: aqua;
+
+}
+li:not(:hover){
+    background-color: rgb(190, 193, 193);
+
+}

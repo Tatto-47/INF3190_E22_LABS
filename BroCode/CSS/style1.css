@@ -1,0 +1,13 @@
+body #P1{
+    background-color:whitesmoke;
+    color: rgb(243, 27, 142);
+}
+h1,pre,table{
+    color: white;
+}
+.even{
+    color: blue;
+}
+.odd{
+    color: green;
+}
